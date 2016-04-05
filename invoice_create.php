@@ -23,7 +23,7 @@ $nl_day_count = cal_days_in_month(CAL_GREGORIAN, $dt_month, $dt_year);
 
 for($dt_day = 1; $dt_day <= $nl_day_count; $dt_day++) {
     if(!isWeekend("$dt_day.$dt_month.$dt_year")) {
-        $lines[] = array('name' => "$dt_day.$dt_month.$dt_year Práce na interním systému ABF", 'quantity' => 8, 'unit_name' => 'hod', 'unit_price' => 300);
+        $lines[] = array('name' => "$dt_day.$dt_month.$dt_year Intranet work", 'quantity' => 8, 'unit_name' => 'hod', 'unit_price' => 1);
     }
 }
 
